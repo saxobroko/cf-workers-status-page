@@ -17,7 +17,7 @@ settings:
 monitors:
   - id: saxobroko # unique identifier
     name: Saxo_Broko
-    description: 'You write code. They handle the rest.' # default=empty
+    description: '' # default=empty
     url: 'https://saxobroko.com' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -25,7 +25,7 @@ monitors:
 
   - id: blog-saxobroko
     name: Saxo_Broko Blog
-    description: 'Built for anything connected to the Internet.'
+    description: ''
     url: 'https://blog.saxobroko.com'
     method: GET
     expectStatus: 200
