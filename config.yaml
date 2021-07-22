@@ -22,6 +22,7 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
 
   - id: blog-saxobroko
     name: Saxo_Broko Blog
@@ -29,6 +30,7 @@ monitors:
     url: 'https://blog.saxobroko.com'
     method: GET
     expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
 
   - id: share-saxobroko
     name: PhotoShare
